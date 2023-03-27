@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Cart = ({cart}) => {
-
+    // console.log(cart)
     // set prices,shipping and tax of products
 
 const totalPrice = cart.reduce((acc,product) => acc + product.price,0)
