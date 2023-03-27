@@ -15,7 +15,7 @@ const Content = () => {
     return (
         <main className="my-20 ">
             <section className="grid grid-cols-[4fr,1fr]">
-                <div className="grid grid-cols-3 gap-5">
+                <div className="grid grid-cols-3 gap-x-10 gap-y-20">
                     {
                         products.map(product => <Product key={product.id} product={product} />)
                     }
